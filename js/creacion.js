@@ -6,6 +6,7 @@ export function creaConEstilo(nombre) {
   div.style.color = "red";
   div.style.display = "block";
   div.innerText = nombre;
+  div.id="divEstiloso";
   return div;
 }
 
